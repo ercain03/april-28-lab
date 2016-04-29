@@ -190,17 +190,7 @@ function sumSort(arrayOfArrays) {
     // TODO: implement me using sumArray
     //  order the arrays based on the sum of the numbers
     //  inside each array
-    if( sumArray(item) > sumArray(item)) {
-      return 1;
-    } else if (sumArray(item) < sumArray(item)){
-      return -1;
-    } else {
-      return 0;
-    }
+    sumArray(item);
   });
   return arrayOfArrays;
 }
-
-var numArr = [[1,3,4,5],[3,4,3,4],[3,3,4,5]];
-
-assert(sumSort(numArr) === [13, 14, 15], 'That is incorrect');
