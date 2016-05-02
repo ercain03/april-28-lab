@@ -86,7 +86,9 @@ assert(blob.hoursToOoze(1000, 1) === hoursSpentInDowington,
 
 // TODO: write three more assertions like the two above, testing out
 // the hoursToOoze method.
-
+assert(blob.hoursToOoze(100,10) === 8, 'Took 33 hours to eat \'em');
+assert(blob.hoursToOoze(50,2) === 9, 'Took 33 hours to eat \'em');
+assert(blob.hoursToOoze(250,5) === 19, 'Took 33 hours to eat \'em');
 //*********************************************************
 // PROBLEM 2: Universal Translator
 //*********************************************************
